@@ -1,0 +1,47 @@
+body{
+    
+    background-color: aquamarine;
+}
+h1{
+    font-variant: small-caps;
+}
+.page{
+
+     
+    height: 300px;
+    width: 300px;
+     
+    left: 30%;
+    top: 30%;
+    position: absolute;
+    transform: translate(-50px, -50px);
+} 
+.o1, .o2{
+    border-radius: 50%;
+    position: absolute;
+    height: 100px;
+    width: 100px;
+}
+.o1{
+     background: linear-gradient(yellow,green);
+    left: -40px;
+    top: -30px;
+}
+.o2{
+     
+    background: linear-gradient(to right, red,blue);
+    right: -40px;
+    bottom: -40px;
+}
+form{
+    background-color: rgba(240, 198, 106, 0.288);
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    transform: translate(-50px, -50px);
+    left: 30%;
+    top: 30%;
+    backdrop-filter: blur(10px) ;
+    border: 2px solid rgba(180, 177, 169, 0.068);
+    border-radius: 10px;
+}
